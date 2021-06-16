@@ -43,6 +43,7 @@ if Choose1 == "1":
 	elif Choose == "3":
 		os.system("clear")
 		os.system("pip3 install requests")
+		os.system("git clone https://github.com/thewhiteh4t/seeker.git")
 		os.system("python seeker/termux_install.sh")
 		os.system("python3 seeker/seeker.py -t manual")
 
